@@ -1,0 +1,129 @@
+body {
+  margin: 1rem;
+}
+
+.done {
+  opacity: 0.3;
+}
+
+.todo {
+  font-size: 120%;
+  transition: all 0.5s ease;
+}
+
+.clear {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.clear:hover {
+  opacity: 0.6;
+}
+
+small {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.App {
+  margin: 2rem 1rem;
+}
+
+.themeswitcher {
+  cursor: pointer;
+}
+
+.headerDate {
+  color: rgb(80, 80, 80);
+  font-size: 1rem;
+}
+.bg-light {
+  background-color: rgb(222, 222, 222) !important;
+}
+
+.bi {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.bi-trash3 {
+  color: #dc3545;
+}
+
+.bi-trash3:hover {
+  animation: animate 0.2s ease;
+}
+
+.bi-check2,
+.bi-check2-all {
+  color: green;
+  scale: 1.2;
+}
+.bi-check2-all:hover,
+.bi-check2:hover {
+  scale: 1.5;
+  /* animation: scale 0.2s ease; */
+}
+
+.bi-pencil-square,
+.bi-pencil-fill {
+  scale: 0.9;
+  color: grey;
+}
+
+.bi-pencil-square:hover,
+.bi-pencil-fill:hover {
+  scale: 1.1;
+}
+
+@keyframes scale {
+  25% {
+    scale: 1.4;
+  }
+}
+
+@keyframes animate {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 30deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  75% {
+    rotate: -30deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+.list-group {
+  max-height: 400px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  appearance: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dedede;
+}
+
+.info {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  color: grey;
+}
+
