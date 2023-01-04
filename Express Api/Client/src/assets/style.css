@@ -1,0 +1,11 @@
+body {
+  margin: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  text-underline-offset: 7px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
